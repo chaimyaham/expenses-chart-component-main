@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root{
+
+--clr-primary-soft-red: hsl(10, 79%, 65%);
+--clr-primary-Cyan: hsl(186, 34%, 60%);
+--clr-dark-brown: hsl(25, 47%, 15%);
+--clr-medium-brown: hsl(28, 10%, 53%);
+--clr-cream: hsl(27, 66%, 92%);
+--clr-Very-pale-orange: hsl(33, 100%, 98%);
+--ff: 'DM Sans', sans-serif;
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--clr-cream);
+    font-family: var(--ff);
+
+}
+header{
+    background-color: var(--clr-primary-soft-red);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 400px;
+    padding: 5px;
+    border-radius: 15px;
+    height: 14vh;
+    margin: 15px;
+
+}
+header .left p{
+font-size: 13px;
+text-align: center;
+line-height: 25px;
+color: var(--clr-Very-pale-orange);
+}
+header .left h1{
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+header .right img{
+    margin-top: 8px;
+    width: 75%;
+}
+
+
+
+main{
+ 
+    background-color: var(--clr-Very-pale-orange);
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 0 10px;
+
+}
+main h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--clr-dark-brown);
+
+}
+main hr{
+    background-color:gainsboro;
+    width: 95%;
+    margin: 10px auto;
+    height: 2px;
+    border: none;
+    border-radius: 50%;
+}
+main section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main section p{
+    color: var(--clr-medium-brown);
+    font-size: 15px;
+}
+section .rightSide{
+    margin-top: 9px;
+
+}
+main section .leftSide h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--clr-dark-brown);
+}
+main section .rightSide h4{
+    text-align: right;
+    color: var(--clr-dark-brown);
+
+}
+.chart{
+    width: 100%;
+    margin: 30px 0;
+}
+section{
+    margin-top: 20px;
+}
+
+
+.attribution {
+    margin-top: 20px;
+     font-size: 11px; text-align: center; }
+.attribution a { color: var(--clr-primary-soft-red); }
