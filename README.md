@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://chaimyaham.github.io/expenses-chart-component-main/)
+- Solution URL:(https://your-solution-url.com)
+- Live Site URL: (https://chaimyaham.github.io/expenses-chart-component-main/)
 
 ## My process
 
@@ -51,7 +51,7 @@ what I learn while working on this project is how to use chart.js and how to imp
 
 ### Continued development
 
-i still have a lot of diffuclties on how to adjust the tooltip position on mychart so i still workin on it
+i still have a lot of diffuclties on how to adjust the tooltip position on mychart so i still working on it
 
 
 
